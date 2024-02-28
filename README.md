@@ -1,1 +1,1 @@
-"# d-e-n-b-o-t.github.io" 
+This is my personal webpage that is 100% statically generated with my own static site generator.
