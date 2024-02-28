@@ -8,60 +8,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Programmer with a passion for many things. 💻 IT Portfolio 📝 FAQ 🌍 Travels 💪 Fitness 📩 Message me Sometimes I write about what I am doing. {{ article_links...">
+    <meta name="description" content="Programmer with a passion for many things. 💻 IT Portfolio 📝 FAQ 🌍 Travels 💪 Fitness 📩 Message me Sometimes I write about what I am doing.">
   </head>
-  <body>
-    <header aria-label="Title">
-      <h1 id="title">Denis Lisunov</h1>
+  <body id="homepage">
+    <header>
+      <div class="homepage-header">
+        <a href="/" class="floater"><img src="./static/images/me.jpg" alt=""></a>
+        <div>
+            <h1 id="title">Denis Lisunov</h1>
+            <p>Welcome to my corner on the web. Here you will find a lot, so take your time and you just might learn something new. Those who search shall find.</p>
+              <div class="nav-div hide-mobile">
+                <nav>
+                  <div onclick="set_iframe('portfolio', '/page/portfolio/')"><a href="/page/portfolio" class="frame-link">💻 Programming</a></div>
+                  <a href="/page/travels" class="frame-link">🌍 Travels</a>
+                  <a href="/page/fitness" class="frame-link">💪 Fitness</a>
+                  <a href="/page/book" class="frame-link">📕 Book</a>
+                  <a href="/page/posts" class="frame-link">📝 Posts</a>
+                  <a href="/page/videos" class="frame-link">👁️ Rabbit hole</a>
+                  <a href="/page/contact" class="frame-link">📩 Message me</a>
+                  <a href="/page/contact" class="frame-link">🇱🇹 LT</a>
+                </nav>
+              </div> 
+        </div>
+      </div>
     </header>
-    <main id="main-content" aria-label="Main content">
-      <article class="profile-article">
-        <div class="text-center">
-          <p>Programmer with a passion for many things.</p>
-        </div>
-        <h2 id="navigation">Navigation</h2>
-        <nav aria-label="navigation">
-          <a href="/page/portfolio" class="head-links" draggable="false" onmouseover="headSwap(0)"> 💻 IT Portfolio</a>
-          <a href="/page/faq" class="head-links" draggable="false" onmouseover="headSwap(1)"> 📝 FAQ</a>
-          <a href="/page/travels" class="head-links" draggable="false" onmouseover="headSwap(2)"> 🌍 Travels</a>
-          <a href="/page/fitness" class="head-links" draggable="false" onmouseover="headSwap(3)"> 💪 Fitness</a>
-          <a href="/page/contact" class="head-links" draggable="false" onmouseover="headSwap(4)"> 📩 Message me</a>
-        </nav>
-        <div id="head-box-relative">
-          <div id="head-box"></div>
-        </div>
-      </article>
-      <article class="profile-article">
-        <h2 id="posts">Posts</h2>
-        <p>Sometimes I write about what I am doing.</p>
-        <ul>
-          <li><time datetime="2023-06-29">2023-06-29</time> - <a href="/articles/en/stable-diffusion-my-experience">My experience with stable diffusion + tutorial</a></li>
-          <li><time datetime="2023-05-16">2023-05-16</time> - <a href="/articles/en/trip-to-belarus">I went to Belarus for a weekend</a></li>
-          <li><time datetime="2023-04-11">2023-04-11</time> - <a href="/articles/en/150-days-of-duolingo">150 Days with Duolingo</a></li>
-          <li><time datetime="2023-03-31">2023-03-31</time> - <a href="/articles/en/reverse-engineering-skyscanner">Reverse-engineering Skyscanner</a></li>
-          <li><time datetime="2023-02-24">2023-02-24</time> - <a href="/articles/en/looking-for-job">Searching for employment in clown world</a></li>
-        </ul>
-        <div class="text-center">
-          <a href="/en/articles">View all posts...</a>
-        </div>
-      </article>
-      <article class="profile-article">
-        <h2 id="book">Book</h2>
-        <p>I wrote a book in 🇱🇹. <a href="/articles/lt/parasiau-knyga/">Check it out here!</a> Reach out for a copy via email: <a href="mailto: rev.denisas@gmail.com">rev.denisas@gmail.com</a></p>
-      </article>
-      <article class="profile-article">
-        <h2 id="digital_footprint">Digital footprint</h2>
-        <div class="fit-center">
-          <p><a target='_blank' href="https://github.com/NorthOC"><img class="icon" src="/static/icons/gh.png" alt="GitHub icon"> GitHub</a>: Have a look at the <a target='_blank' href="https://github.com/NorthOC/northoc.github.io">code</a> for this website.</p>
-          <p><a target='_blank' href="https://www.youtube.com/channel/UCLRc-Q0WkFgIywm2NUPoGow"><img class="icon" src="/static/icons/yt.png" alt="YouTube icon"> YouTube</a>: Sometimes I upload videos.</p>
-          <p><a target='_blank' href="https://www.linkedin.com/in/denis-lisunov/"><img class="icon" src="/static/icons/li.png" alt="LinkedIn icon"> LinkedIn</a>: Will code for 💵</p>
-        </div>
-      </article>
-      <script src="/scripts/headSwap.js"></script>
+    <main id="frame-holder">
+      <section>
+        <h2>Who are you?</h2>
+        <p>Curious.</p>
+        <p>I search for answers where few question or ask, to make the world a better place.</p>
+        <p>I always look for the truth regardless of whether I like the answer or not.</p>
+        <p>I aim to be independent of others and rely only on myself so I can teach others.</p>
+        <p>I make mistakes and hope that others will point them out so I can improve.</p>
+        <p>This is me. This is Denis.</p>
+        <br>
+          <p>OKAY, MAYBE THAT SOUNDED TOO SERIOUS HAHA.</p>
+          <p>Look, I'm just a guy who likes to try things out. 
+          One day it might be learning morse code, the next it might 
+          be creating a startup. Whatever comes to mind - if it is interesting, I will learn it. And because I do what I do - people define me by different titles. 
+          </p>
+          <p>Programmer, lover, traveller, author, wine maker, gym bro, friend... There's not really a single box that fits them all.</p>
+          <p>Now, I do have my strenghts by being hands-on technical. But that means that there are some areas I lack when it comes to being social.</p>
+          <p>I don't like big cities, crowds and dogs. Very unpredictable.</p>
+          <p>But what I do like is intimate connections between two people. So this is why I wrote a book - to bring people closer together in a time where we are apart.</p>
+          <br>
+          <p>Here are some Wikipedia-type facts about me:</p>
+          <ul>
+            <li>I am from Utena, Lithuania. 🇱🇹</li>
+            <li>I speak 4 languages: Lithuanian, English, Spanish and Russian.</li>
+            <li>I was born in spring, 1998.</li>
+            <li>My favorite book is Ham on Rye by Charles Bukowski.</li>
+            <li>My favorite video game is Spyro: Year of the Dragon.</li>
+            <li>My favorite music is Jungle/Breakcore.</li>
+            <li>I am not single.</li>
+          </ul>
+      </section>
     </main>
-    <footer aria-label="footer">
-      <a href="/">https://denislisunov.xyz</a>
-      <p>Powered by <a href="https://github.com/northoc/damp2ph">damp2ph</a></p>
-    </footer>
+    <script src="./scripts/iFrameController.js"></script>
   </body>
 </html>
