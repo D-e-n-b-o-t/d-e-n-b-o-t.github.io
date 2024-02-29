@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="lt">
+<html lang="en">
   <head>
     <title>Reverse-engineering Skyscanner - Denis Lisunov</title>
     <link rel="stylesheet" href="/static/style.css">
@@ -13,13 +13,21 @@
     <meta name="description" content="2023-08-07 EDIT: As of recent, Skyscanner have changed their API so this post is obsolete. May is approaching, which means the first season of the cheapest...">
   </head>
   <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
-    <header aria-label="Title">
-      <h1 id="title">Reverse-engineering Skyscanner</h1>
-      <time datetime="2023-03-31" pubdate="pubdate" id="post-date">2023-03-31</time>
+    <header>
+      <nav>
+        <a href="/">🏠 Homepage</a>
+        <a href='/page/portfolio'>💻 Programming</a>
+        <a href='/page/travels'>🌍 Travels</a>
+        <a href='/page/fitness'>💪 Fitness</a>
+        <a href='/page/book'>📕 Book</a>
+        <a href='/en/articles'>📝 Posts</a>
+        <a href='/page/contact'>📩 Message me</a>
+        <a href='/page/contact'>🇱🇹 LT</a>
+      </nav>
     </header>
-    <main id="main-content" aria-label="Main content">
-      <article>
+    <main>
+      <section>
+        <h1 id="title">Reverse-engineering Skyscanner</h1>
         <p><strong>2023-08-07 EDIT: As of recent, Skyscanner have changed their API so this post is obsolete.</strong></p>
         <h2 id="context">Context</h2>
         <p>May is approaching, which means the first season of the cheapest tickets of the year. I'm curious because I miss traveling (the last time I flew was in November). So, I go to the Skyscanner website, I choose to fly from <code>Lithuania</code> to <code>Everywhere</code>, I click on the time, and what... the <code>Cheapest month</code> option is gone!</p>
@@ -174,11 +182,7 @@
         <h2 id="ending_words">Ending words</h2>
         <p>So, for now, this is the end of the Skyscanner API journey. If you know how to spoof POST requests with Python (not childishly), please contact me.</p>
         <p>For those who want to play with the code or plan their future vacation in the most efficient way, here is the project link: <a target='_blank' href="https://github.com/NorthOC/fast_scanner">https://github.com/NorthOC/fast_scanner</a></p>
-      </article>
+      </section>
     </main>
-    <footer aria-label="footer">
-      <a href="/">https://denislisunov.xyz</a>
-      <p>Powered by <a href="https://github.com/northoc/damp2ph">damp2ph</a></p>
-    </footer>
   </body>
 </html>

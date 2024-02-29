@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="lt">
+<html lang="en">
   <head>
     <title>My experience with stable diffusion + tutorial - Denis Lisunov</title>
     <link rel="stylesheet" href="/static/style.css">
@@ -13,13 +13,21 @@
     <meta name="description" content="Ive been experimenting with Stable Diffusion. In short, it is a model used to generate images. Similar ones are Midjourney and DALLE 2. It is wild, unpred...">
   </head>
   <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
-    <header aria-label="Title">
-      <h1 id="title">My experience with stable diffusion + tutorial</h1>
-      <time datetime="2023-06-29" pubdate="pubdate" id="post-date">2023-06-29</time>
+    <header>
+      <nav>
+        <a href="/">🏠 Homepage</a>
+        <a href='/page/portfolio'>💻 Programming</a>
+        <a href='/page/travels'>🌍 Travels</a>
+        <a href='/page/fitness'>💪 Fitness</a>
+        <a href='/page/book'>📕 Book</a>
+        <a href='/en/articles'>📝 Posts</a>
+        <a href='/page/contact'>📩 Message me</a>
+        <a href='/page/contact'>🇱🇹 LT</a>
+      </nav>
     </header>
-    <main id="main-content" aria-label="Main content">
-      <article>
+    <main>
+      <section>
+        <h1 id="title">My experience with stable diffusion + tutorial</h1>
         <h2 id="context">Context</h2>
         <p>I've been experimenting with Stable Diffusion. In short, it is a model used to generate images. Similar ones are Midjourney and DALLE 2. It is wild, unpredictable, a black box. And, sometimes, it makes you go "woaaaah". The fact that you can take a prompt and transform it into a picture is crazy, however the most underrated feature of Stable Diffusion is the img2img. You basically take an image, and combine it with a prompt, and then the model can spit out some cool stuff:</p>
         <figure>
@@ -54,11 +62,7 @@
         <p>If your computer, like mine, is older than <a target='_blank' href="https://en.wikipedia.org/wiki/Antikythera_mechanism">ancient Rome</a>, modify <code>webui-user.bat</code> (open with notepad) with these parameters:</p>
         <p><code>COMMANDLINE_ARGS=--xformers --lowvram</code></p>
         <p>Now you can say you have experience in Machine Learning.</p>
-      </article>
+      </section>
     </main>
-    <footer aria-label="footer">
-      <a href="/">https://denislisunov.xyz</a>
-      <p>Powered by <a href="https://github.com/northoc/damp2ph">damp2ph</a></p>
-    </footer>
   </body>
 </html>

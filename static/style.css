@@ -7,34 +7,28 @@ body{
     background-color: rgb(255, 255, 255);
     font-size: 16px;
 }
-#homepage{
-    overflow-y: hidden;
-}
 img{
     display: block;
+    max-width: 100%;
 }
-
-.floater{
-    float: left;
-    margin: 5px 20px 5px 5px;
-}
-.homepage-header a{
-    height: fit-content;
-    border: 1px solid transparent;
+.profile-img{
+    height: 160px;
+    width: 160px;
 }
 header{
     border-bottom: 2px solid #333;
     padding: 10px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
 }
 header h1{
     margin: 0px;
 }
-.homepage-header{
-    padding-bottom: 10px;
-}
 .homepage-header img{
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     align-self: center;
     border: 1px solid black
 }
@@ -43,9 +37,9 @@ header h1{
 }
 
 nav{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    width: 100%;
+    display: flex;
+    gap: 10px 20px;
+    flex-wrap: wrap;
 }
 .nav-div{
     max-width: 600px;
@@ -53,44 +47,31 @@ nav{
 }
 a{
     color: green;
-    border: 1px solid transparent; 
-}
-.frame-link{
-    pointer-events: none;
+    border-radius: 5px;
+    text-decoration: none;
 }
 nav a{
-    text-decoration: none;
-    color: green;
     padding: 5px;
+    max-width: 170px;
     border: 1px solid transparent;
 }
 a:hover{
     border: 1px solid seagreen;
     background-color: white;
 }
-#frame-holder{
-    overflow-y: scroll;
-    min-height: 75vh;
-    max-height: 75vh;
-    width: 100%;
-}
 main{
     padding: 10px;
-}
-iframe{
-    padding: 0;
-}
-q{
-    font-style: italic;
 }
 section{
     max-width: 800px;
     margin-bottom: 100px;
 }
-
 @media (max-width: 800px) {
-    .homepage-header img{
-        width: 150px;
-        height: 150px;
+    body{
+        font-size: 14px;
+    }
+    .profile-img{
+        width: 110px;
+        height: 110px;
     }
 }

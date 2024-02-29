@@ -1,14 +1,20 @@
 <body>
-    <header aria-label="Title">
-        <h1 id="title">{{= title }}</h1>
-    </header>
-    <main id="main-content" aria-label="Main content">
-        <article>
+    <header>
+        <nav>
+          <a href="/">🏠 Homepage</a>
+          <a href='/page/portfolio'>💻 Programming</a>
+          <a href='/page/travels'>🌍 Travels</a>
+          <a href='/page/fitness'>💪 Fitness</a>
+          <a href='/page/book'>📕 Book</a>
+          <a href='/en/articles'>📝 Posts</a>
+          <a href='/page/contact'>📩 Message me</a>
+          <a href='/page/contact'>🇱🇹 LT</a>
+        </nav>
+  </header>
+    <main>
+        <section>
+            <h1 id="title">{{= title }}</h1>
             {{ content }}
-        </article>
+        </section>
     </main>
-    <footer aria-label="footer">
-        <a href="/">https://denislisunov.xyz</a>
-        <p>Powered by <a href="https://github.com/northoc/damp2ph">damp2ph</a></p>
-    </footer>
 </body>

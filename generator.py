@@ -600,11 +600,12 @@ def write_to_indexer(indexer_blob):
 def cleanup ():
     with open(Path("config/indexer.txt"), "r", encoding="utf-8") as f:
         indexed_files = f.read().strip().split("\n")
+    if indexed_files[0] == '':
+        return
     for file in indexed_files:
         os.remove(file)
         if len(file.split(os.sep)) > 1:
             os.removedirs(os.sep.join(file.split(os.sep)[:-1]))
-    os.remove(Path("config/indexer.txt"))
     print("Clean up complete")
 
 if __name__ == "__main__":

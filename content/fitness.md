@@ -1,7 +1,5 @@
 # Fitness
 
-<time datetime="{{= last-update }}" class="update">updated on: {{= last-update }}</time>
-
 I have been working out for almost a decade now, and it has had a tremendous effect on my mind and body.
 
 So, here's some advice on how to get fit. And a backstory to go along with that.

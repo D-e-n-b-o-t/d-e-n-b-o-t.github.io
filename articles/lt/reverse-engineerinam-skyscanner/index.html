@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lt">
   <head>
     <title>Reverse-engineerinam Skyscanner - Denis Lisunov</title>
     <link rel="stylesheet" href="/static/style.css">
@@ -13,13 +13,21 @@
     <meta name="description" content="Artėja gegužės mėnesis, o tai reiškias pirmasis šių metų pigiausių bilietų sezonas. Man smalsu nes pasiilgau kelionių (paskutinį kartą buvau išskridęs Lap...">
   </head>
   <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
-    <header aria-label="Title">
-      <h1 id="title">Reverse-engineerinam Skyscanner</h1>
-      <time datetime="2023-03-31" pubdate="pubdate" id="post-date">2023-03-31</time>
+    <header>
+      <nav>
+        <a href="/">🏠 Homepage</a>
+        <a href='/page/portfolio'>💻 Programming</a>
+        <a href='/page/travels'>🌍 Travels</a>
+        <a href='/page/fitness'>💪 Fitness</a>
+        <a href='/page/book'>📕 Book</a>
+        <a href='/en/articles'>📝 Posts</a>
+        <a href='/page/contact'>📩 Message me</a>
+        <a href='/page/contact'>🇱🇹 LT</a>
+      </nav>
     </header>
-    <main id="main-content" aria-label="Main content">
-      <article>
+    <main>
+      <section>
+        <h1 id="title">Reverse-engineerinam Skyscanner</h1>
         <h2 id="kontekstas">Kontekstas</h2>
         <p>Artėja gegužės mėnesis, o tai reiškias pirmasis šių metų pigiausių bilietų sezonas. Man smalsu nes pasiilgau kelionių (paskutinį kartą buvau išskridęs Lapkritį). Taigi, nueinu į Skyscanner svetaine, pasirenku skristi iš <code>Lietuvos</code> į <code>Everywhere</code>, spaudžiu ant laiko nu ir ką... nebėra pasirinkimo <code>Cheapest month</code>!</p>
         <figure>
@@ -172,11 +180,7 @@
         <h2 id="pabaiga_ir_nuoroda_i_projekta">Pabaiga ir nuoroda į projektą</h2>
         <p>Taigi, kol kas čia yra kelionės su Skyscanner API pabaiga. Jeigu kas mokate spoofint POST requestus su Python (ne vaikiškai), parašykit.</p>
         <p>Tiems kas norit pasižaisti su kodu arba pasiplanuoti savo atostogas į ateitį efektyviausiu būdu, štai projekto linkas: <a target='_blank' href="https://github.com/NorthOC/fast_scanner">https://github.com/NorthOC/fast_scanner</a></p>
-      </article>
+      </section>
     </main>
-    <footer aria-label="footer">
-      <a href="/">https://denislisunov.xyz</a>
-      <p>Powered by <a href="https://github.com/northoc/damp2ph">damp2ph</a></p>
-    </footer>
   </body>
 </html>
