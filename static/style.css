@@ -1,11 +1,31 @@
 *, *::before,*::after{
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "poppins";
+    src: url(/static/fonts/Poppins-Regular.ttf);
+}
+ .theme-dark {
+    --color-primary: #17ed90;
+    --color-secondary: #243133;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+ }
+ .theme-light {
+    --color-primary: #0060df;
+    --color-secondary: #fbfbfe;
+    --color-accent: #fd6f53;
+    --font-color: #000000;
+ }
 body{
     margin: 0;
-    font-family: monospace;
-    background-color: rgb(255, 255, 255);
+    font-family: "poppins",monospace;
+    background-color: var(--color-secondary);
+    color: var(--font-color);
     font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: var(--color-accent);
 }
 img{
     display: block;
@@ -16,24 +36,15 @@ img{
     width: 160px;
 }
 header{
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid var(--font-color);
     padding: 10px;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-color: white;
+    background-color: var(--color-secondary);
 }
 header h1{
     margin: 0px;
-}
-.homepage-header img{
-    width: 160px;
-    height: 160px;
-    align-self: center;
-    border: 1px solid black
-}
-.homepage-header p{
-    max-width: 800px;
 }
 
 nav{
@@ -46,7 +57,7 @@ nav{
     display: flex;
 }
 a{
-    color: green;
+    color: var(--color-primary);
     border-radius: 5px;
     text-decoration: none;
 }
@@ -56,8 +67,8 @@ nav a{
     border: 1px solid transparent;
 }
 a:hover{
-    border: 1px solid seagreen;
-    background-color: white;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-secondary);
 }
 main{
     padding: 10px;
