@@ -8,10 +8,5 @@
         "base": "templates/base.html",
         "head": "templates/head.html", 
         "body": "templates/body.html"
-    },
-    "config/articles_lt.json": {
-        "base": "templates/base_lt.html",
-        "head": "templates/head.html", 
-        "body": "templates/body.html"
     }
 }
