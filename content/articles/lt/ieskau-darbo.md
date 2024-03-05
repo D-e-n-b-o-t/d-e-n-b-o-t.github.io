@@ -37,3 +37,5 @@ CV savo palikau toks koks jis iš tiesų yra, "pagerinau" tik savo LinkedIn prof
 Nenoriu prisišnekėti, bet galimai ateinančią savaitę prisijungsiu prie darbo rinkos kadangi radau gerą pasiūlymą pagal specialybę Utenoje.
 
 Wish me luck.
+
+**EDIT: IT specialisto darbą.**

@@ -1,12 +1,14 @@
 # Fitness
 
-I have been working out for almost a decade now, and it has had a tremendous effect on my mind and body.
+I have been working out by doing calisthenics for almost a decade now, and it has had a tremendous effect on my mind and body.
+
+![Apex performance, 2022](/static/images/fitness/fit5.jpg)
 
 So, here's some advice on how to get fit. And a backstory to go along with that.
 
 ## In a 10 year span
 
-I was 14 years old and in the overweight category (70kg and 172cm). 
+In 2012, I was 14 years old and got classed as overweight (70kg and 172cm) at my yearly health check-up. That scared me.
 
 With no idea on how to get to where I want to be, I started running. My workout routine was only cardio - 4km a day, 5 times a week.
 
@@ -14,7 +16,7 @@ After about 6 years of that, the results were subpar. Lost some fat, but had no 
 
 ![Six years of running will get you this, 2018](/static/images/fitness/fit1.png)
 
-So I quit cardio and decided to start doing calisthetics. My first PR for pull ups was 4.
+So I quit cardio and decided to start doing calisthenics. My first PR for pull ups was 4.
 
 ![What are those!, 2019](/static/images/fitness/fit2.png)
 
@@ -26,9 +28,7 @@ The Covid-19 pandemic was good due to being able to work out at home. To fully g
 
 ![Woah, is that me?, 2021](/static/images/fitness/fit4.png)
 
-At some point I hit my max PR which I believe is my hard cap. My current PR for pull ups is 55 WITHOUT KIPS (65 with kipping). To achieve more, without going to the gym and lifting weights, I would have to start training with weighted vests and watching what I eat to a T.. or start taking PEDs (performance enhancing drugs).
-
-![Apex performance, 2022](/static/images/fitness/fit5.jpg)
+At some point I hit my max PR which I believe is my hard cap. My current PR for pull ups is 55 WITHOUT KIPS (65 with kipping). To achieve more, without going to the gym and lifting weights, I would have to start training with weighted vests... or start taking performance enhancing drugs (no thanks lol).
 
 The best part is that I'm now keeping it up at 70kg at 176 cm, except this time it is mostly muscle.
 
@@ -42,7 +42,7 @@ Schedule:
 
 * Monday: Upper body.
 * Tuesday: Upper body.
-* Wednesday: Abs + Legs.
+* Wednesday: Legs.
 * Thursday: Upper body.
 * Friday: Abs.
 
