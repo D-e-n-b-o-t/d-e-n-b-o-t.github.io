@@ -4,19 +4,19 @@ I have been coding for 3+ years and currently work as an IT specialist at [UAB "
 
 ## Front-End Web Apps (Click to play)
 
-[Book tracker](http://denislisunov.xyz/book-library-js/) (JavaScript) - It is a front-end library web app.
+[Book tracker](https://northoc.github.io/book-library-js/) (JavaScript) - It is a front-end library web app.
 
-[Tic Tac Toe](http://denislisunov.xyz/tic-tac-toe-js/) (JavaScript) - I bet you have played this one before.
+[Tic Tac Toe](https://northoc.github.io/tic-tac-toe-js/) (JavaScript) - I bet you have played this one before.
 
-[Calculator](https://denislisunov.xyz/calculator/) (JavaScript) - One of those projects that every programmer has made. Feel free to try it out (it has keyboard support).
+[Calculator](https://northoc.github.io/calculator/) (JavaScript) - One of those projects that every programmer has made. Feel free to try it out (it has keyboard support).
 
-[Google copycat](http://denislisunov.xyz/google-homepage/) (HTML) - It is a visual responsive recreation of Google's homepage.
+[Google copycat](https://northoc.github.io/google-homepage/) (HTML) - It is a visual responsive recreation of Google's homepage.
 
-[Rock, Paper, Scissors](https://denislisunov.xyz/rockpaperscissors/) (JavaScript) - The title says it all.
+[Rock, Paper, Scissors](https://northoc.github.io/rockpaperscissors/) (JavaScript) - The title says it all.
 
-[DnD character creation form](https://denislisunov.xyz/dnd_charform/) (HTML) - It is a simple registration form for creating a Dungeons and Dragons character.
+[DnD character creation form](https://northoc.github.io/dnd_charform/) (HTML) - It is a simple registration form for creating a Dungeons and Dragons character.
 
-[Tensorflow documentation mockup](http://denislisunov.xyz/doc_mockup/) (HTML) - A documentation mockup website for Tensorflow.
+[Tensorflow documentation mockup](https://northoc.github.io/doc_mockup/) (HTML) - A documentation mockup website for Tensorflow.
 
 ## Full-stack Web Apps
 

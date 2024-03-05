@@ -1,6 +1,6 @@
 # My Book
 
-![Front cover](/static/images/cover.webp)
+![Front cover](/static/images/cover.png)
 
 ## Here's the gist
 
@@ -33,19 +33,18 @@ By finishing this section, you will have all the instructions on how to get laid
 
 ## Available languages and formats
 
-Currently it is **only available in Lithuanian**. If I see the need for it, I will release one in English.
+Currently it is **only available in Lithuanian** but an English translation is coming soon. 
 
-The book is available in two formats: paperback and as an eBook.
+The book is available in two formats: paperback and as an eBook as PDF or ePub.
 
 ## Where can I find this book?
 
-You can find the [eBook version on Amazon](https://www.amazon.de/-/en/Denis-Lisunov-ebook/dp/B0BC1BTLCK).
+The book has its own [official website](https://meileszaidimas.lt).
 
-For a paperback version, which you can
-have neatly placed on your shelf, 
-contact me via 
-[email](mailto:rev.denisas@gmail.com?subject=Noriu nusipirkti knygą).
-I only ship to Lithuania. The final price is 8.69 Euros (this includes shipping costs).
-For now, this is the only way to get the paperback version.
+You can also find the [eBook version on Amazon](https://www.amazon.de/-/en/Denis-Lisunov-ebook/dp/B0BC1BTLCK).
 
-In the near future, I expect the book to be available on [knygos.lt](https://www.knygos.lt/lt/knygos/meiles-zaidimas--teorija--taktika-ir-praktika/)
+There's also the option to buy it directly, both paperback and e-book from me. If that's your style, contact me via email [rev.denisas@gmail.com](mailto:rev.denisas@gmail.com):
+
+For now, I only ship to Lithuania though. The final price is 9.69 Euros (this includes shipping costs).
+
+The book is also available on [knygos.lt](https://www.knygos.lt/lt/knygos/meiles-zaidimas--teorija--taktika-ir-praktika/) but do be warned that it is more expensive to buy from there (due to fees!)

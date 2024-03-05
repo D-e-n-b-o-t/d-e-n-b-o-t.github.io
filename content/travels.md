@@ -2,7 +2,7 @@
 
 I travel to 3-5 European countries annually, on a budget, so I know my way around the system in Europe. 
 
-![16 European countries visited so far (some multiple times)](/static/images/map-of-eu.png)
+![17 European countries visited so far (some multiple times)](/static/images/map-of-eu.png)
 
 The secret to cheap travelling is being available when things are on sale. 
 Usually, ***discounts for both accomodation and tickets, are at their peak in late Autumn and late Spring***.
