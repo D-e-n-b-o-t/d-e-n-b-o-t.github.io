@@ -1,6 +1,6 @@
 function check_theme(){
     if (localStorage.getItem("theme") == null){
-        localStorage.setItem("theme", "theme-light");
+        localStorage.setItem("theme", "theme-dark");
     }
     set_theme();
 }
