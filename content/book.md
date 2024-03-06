@@ -47,4 +47,6 @@ There's also the option to buy it directly, both paperback and e-book from me. I
 
 For now, I only ship to Lithuania though. The final price is 9.69 Euros (this includes shipping costs).
 
+You can get the e-book (in PDF or ePub format) for 4 euros.
+
 The book is also available on [knygos.lt](https://www.knygos.lt/lt/knygos/meiles-zaidimas--teorija--taktika-ir-praktika/) but do be warned that it is more expensive to buy from there (due to fees!)
