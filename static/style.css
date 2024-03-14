@@ -72,6 +72,8 @@ figcaption{
 }
 code{
     word-wrap: break-word;
+    background: black;
+    color: yellow;
 }
 a:hover{
     border: 1px solid var(--color-primary);
