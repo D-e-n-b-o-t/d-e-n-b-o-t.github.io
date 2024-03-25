@@ -13,9 +13,7 @@ I use [Skyscanner](https://www.skyscanner.net/).
 
 My favorite destination when using Skyscanner:
 
-~~From: `Lithuania`, To: `Everywhere`, Depart: `Cheapest month`, Return: `Cheapest month`~~
-
-**EDIT: This feature is no longer simply accessible in Skyscanner. View [this post](/articles/en/reverse-engineering-skyscanner) for more info.**
+From: `Lithuania`, To: `Everywhere`, Depart: `Cheapest month`, Return: `Cheapest month`
 
 You can search by airport, by country, by loose and by very specific timeframes. 
 

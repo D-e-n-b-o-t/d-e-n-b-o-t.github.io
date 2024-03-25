@@ -1,6 +1,6 @@
 # My Book
 
-![Front cover](/static/images/cover.png)
+![Front cover](/static/images/mk2.png)
 
 ## Here's the gist
 
@@ -31,22 +31,11 @@ how to read social q's, good and bad signals,
 how to take her home, how to get intimate on dates and in the bedroom, picking-up women in different social situations, how to choose a partner for a long-term relationship.
 By finishing this section, you will have all the instructions on how to get laid like a warlord and have healthy long-term relationships.
 
-## Available languages and formats
+## Available languages and formats 
 
-Currently it is **only available in Lithuanian** but an English translation is coming soon. 
+Currently, the book is available in paperback, PDF and ePub formats in English and Lithuanian languages.
 
-The book is available in two formats: paperback and as an eBook as PDF or ePub.
+## Where can I find your book?
 
-## Where can I find this book?
+The Love Game has its own official website [https://meileszaidimas.lt](https://meileszaidimas.lt) for the Lithuanian version and [https://mangetlaid.com](https://mangetlaid.com) for the English one. Yeah, I know, the domain name is cringe :D
 
-The book has its own [official website](https://meileszaidimas.lt).
-
-You can also find the [eBook version on Amazon](https://www.amazon.de/-/en/Denis-Lisunov-ebook/dp/B0BC1BTLCK).
-
-There's also the option to buy it directly, both paperback and e-book from me. If that's your style, contact me via email [rev.denisas@gmail.com](mailto:rev.denisas@gmail.com):
-
-For now, I only ship to Lithuania though. The final price is 9.69 Euros (this includes shipping costs).
-
-You can get the e-book (in PDF or ePub format) for 4 euros.
-
-The book is also available on [knygos.lt](https://www.knygos.lt/lt/knygos/meiles-zaidimas--teorija--taktika-ir-praktika/) but do be warned that it is more expensive to buy from there (due to fees!)

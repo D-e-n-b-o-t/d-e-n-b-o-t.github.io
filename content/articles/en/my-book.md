@@ -4,12 +4,13 @@ I always wanted to write a book, so I wrote about what I know best. Approximatel
 
 ## Brief
 
-![cover](/static/images/gallery/book_cover.png)
+![cover](/static/images/mk2.png)
 
 * Title: The Love Game: Theory, Tactics, and Practice
 * Pages: 105
 * Recommended age: 16+
 * Genre: Psychological/Adult
+* Available languages: [Lithuanian](https://meileszaidimas.lt) and [English](https://mangetlaid.com)
 
 ## Your guide to love and intimacy
 
@@ -31,7 +32,7 @@ The practice part is all about how to play the game. How to approach, how to sed
 
 ## Order a copy today!
 
-The book exists in two formats: paperback and electronic. You can order by contacting me via email: [rev.denisas@gmail.com](mailto:rev.denisas@gmail.com?subject=I want to buy your book).
+The book exists in paperback and electronic (pdf, epub) formats. You can order by contacting me via email: [rev.denisas@gmail.com](mailto:rev.denisas@gmail.com?subject=I want to buy your book) or by visiting a website specifically dedicated to the book: 
 
-The electronic version is sold for 4 EURO only and Paperback, is currently at 8.69 EURO + shipping.
-
+* [https://meileszaidimas.lt](https://meileszaidimas.lt) - lithuanian version.
+* [https://mangetlaid.com](https://mangetlaid.com) - english version. Yes, I know that the domain is weird :D
