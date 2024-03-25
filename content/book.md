@@ -2,6 +2,11 @@
 
 ![Front cover](/static/images/mk2.png)
 
+* Title: The Love Game: Theory, Tactics, and Practice
+* Pages: 96
+* Recommended age: 16+
+* Genre: Psychological/Adult
+
 ## Here's the gist
 
 Being involved with the pick-up community for over 9 years,
