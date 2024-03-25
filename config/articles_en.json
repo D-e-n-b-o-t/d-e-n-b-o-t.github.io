@@ -27,5 +27,9 @@
   "articles/en/the-progression-ladder": {
     "content": "content/articles/en/the-progression-ladder.md",
     "date": "2024-03-05"
+  },
+  "articles/en/biz-series-part-1": {
+    "date": "2024-03-25",
+    "content": "content/articles/en/biz-part-1.md"
   }
 }
