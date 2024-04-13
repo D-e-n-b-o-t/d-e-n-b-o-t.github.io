@@ -31,5 +31,13 @@
   "articles/en/biz-series-part-1": {
     "date": "2024-03-25",
     "content": "content/articles/en/biz-part-1.md"
+  },
+  "articles/en/biz-series-part-2": {
+    "date": "2024-04-12",
+    "content": "content/articles/en/biz-part-2.md"
+  },
+  "articles/en/biz-series-part-3": {
+    "date": "2024-04-13",
+    "content": "content/articles/en/biz-part-3.md"
   }
 }
