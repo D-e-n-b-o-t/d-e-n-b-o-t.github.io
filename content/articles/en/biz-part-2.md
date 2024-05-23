@@ -8,13 +8,13 @@ The only way to live life freely is to either become rich, or to become poor. I 
 
 Many ways to find problems, but the catch here is this: you have to be passionate about it. Because, without passion, there are nuances that you will not understand, and the hard times will be unbearable, and, in the long run, you will end up quitting. 
 
-![business is about solving existing problems, but you need passion until you get there](/static/images/biz-series/problem.png)
+![business is about solving existing problems](/static/images/biz-series/problem.png)
 
 It's not that hard to find a passion - just think about a thing you can talk about for hours. Really, what are you interested in?
 
-For me that is human psychology. I can talk to you about social dynamics, dating strategies and even predict the future and circumstances of many people, based on their behavior, all day, everyday. 
+For me that is human psychology. I can talk to you about social dynamics, dating strategies, body language, and even predict the future and circumstances of many people, based on their behavior, all day, everyday. 
 
-I once even had a blog called Humans Eat People: Dynamics. So, for me, it is this.
+I once even had a psychology blog called Humans Eat People: Dynamics. So, for me, it is this.
 
 ## Problem
 
@@ -32,14 +32,14 @@ So how does one solve loneliness in Lithuania? Here's some ideas I've brainstorm
 
 I could become a psychologist, but that isn't scalable in the long-term. Years to get a degree? No way man. And there is no way this idea could make me 5 million (read first part if you don't understand why that's the goal). 
 
-I could write a book on how to get friends, but we already have [How to win friends and influence people by Dale Carnegie](https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034). It would be my second book, and people would be more inclined to believe that it is legit. A decent idea, just not a million dollar idea, in my opinion.
+I could write a book on how to get friends, but we already have [How to win friends and influence people by Dale Carnegie](https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034). It would be my second book, so there would be some trust in me as an author. A decent idea, just not a million dollar idea, in my opinion.
 
 What about a rental girlfriend agency? It is well received in Asia, pretty scalable, but would be hard to market because people would associate it with prostitution in one way or another, due to the conservative nature here. This idea is inspiring.
 
 What about a rental friend platform in Lithuania? Yes, this seems like something I could get behind. After more research, here's where we are at:
 
 * There is no current business like that in Lithuania.
-* Many old and young people experience loneliness. (300k potential users)
+* Many old and young people experience loneliness. (around 500k potential users)
 * Marketing would be easy - posting loneliness, friendship psychology and promoting friend profiles.
 * Recurring revenue, because if a person likes someone, they will want to meet more.
 * Biggest competitor is [rentafriend.com](https://rentafriend.com) but, after looking through their database, there are barely any Lithuanians.

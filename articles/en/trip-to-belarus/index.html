@@ -18,24 +18,27 @@
   <body>
     <header>
       <nav>
-        <a href="/">🏠 Homepage</a>
-        <a href='/page/portfolio'>💻 Programming</a>
+        <a href="/">🏠 Home</a>
+        <a href='/page/portfolio'>💻 Code</a>
         <a href='/page/travels'>🌍 Travels</a>
         <a href='/page/fitness'>💪 Fitness</a>
         <a href='/page/book'>📕 Book</a>
         <a href='/en/articles'>📝 Posts</a>
-        <a href='/page/contact'>📩 Message me</a>
-        <a href="#" onclick="toggle_theme()" id="theme-toggler">Theme: dark</a>
+        <a href='/page/contact'>📩 Contact</a>
+        <a onclick="toggle_theme()" id="theme-toggler">Theme: dark</a>
+        <a onclick="toggle_filter()" id="filter-toggler">Mode: Trigger-safe</a>
       </nav>
     </header>
     <script src="/scripts/themeMode.js" onload="check_theme();"></script>
     <main>
       <section>
         <h1 id="title">I went to Belarus for a weekend</h1>
-        <h2 id="context">Context</h2>
-        <p>My girlfriend's father said that travel to Belarus is visa-free this year. I looked at the official website of the Lithuanian Ministry of Foreign Affairs. It says that a visa is required. I wrote an email to clarify. They replied that I need a visa. Something's fishy. So I wrote to the Ministry of Foreign Affairs of Belarus. They wrote back that travel to Belarus is visa free.</p>
-        <p>Thus, the Ministry of Foreign Affairs of Lithuania lied.</p>
-        <p>To see everything for myself, I planned a trip in the coming week.</p>
+        <div class="filtered">
+          <h2 id="context">Context</h2>
+          <p>My girlfriend's father said that travel to Belarus is visa-free this year. I looked at the official website of the Lithuanian Ministry of Foreign Affairs. It says that a visa is required. I wrote an email to clarify. They replied that I need a visa. Something's fishy. So I wrote to the Ministry of Foreign Affairs of Belarus. They wrote back that travel to Belarus is visa free.</p>
+          <p>Thus, the Ministry of Foreign Affairs of Lithuania lied.</p>
+          <p>To see everything for myself, I planned a trip in the coming week.</p>
+        </div>
         <h2 id="border_from_lithuania_to_belarus">Border from Lithuania to Belarus</h2>
         <p>We went by bus. We had to wait at the border because both countries were checking everyone's documents. On the Lithuanian side, you had to get out, stand in line, approach a booth, and show your passport, then cross to the other side of the border.</p>
         <p>We entered the building on the Belarusian side. There, we went to the counter in a row and had to explain when we were traveling to Belarus, for what purpose, and to tell the address where we will be staying. Everyone's belongings were then checked through airport-style baggage scanners.</p>
@@ -71,10 +74,12 @@
           <img src="/static/images/baltarusija/belarus3.webp" alt="Nice atmosphere"/>
           <figcaption>Nice atmosphere</figcaption>
         </figure>
-        <p>A guy with a laptop was sitting next to us and, after ordering, he complimented us on our Russian language skills. We started talking. His name is Nail (pronounced Nayl in Lithuanian) Turns out he is from the <a target='_blank' href="https://en.wikipedia.org/wiki/Bashkirs">Bashkir</a> region of Russia. He came to Belarus for work. He has a wife in Russia who is also from the same region. His parents raise bees, livestock, and make alcoholic beverages. We shared our cultures and customs. I learned about Bashkir's <a target='_blank' href="https://en.wikipedia.org/wiki/Quray">national instrument</a>.</p>
-        <p>Two men were sitting next to us who were playing chess - Vadim and Vladimir. Apparently they found our conversation interesting and so they joined us. It turns out that both of them are from Russia. Vladimir was in Utena long time ago - when he was flipping good cars. I realized that they are like us - those who are guided not by words, but by experience.</p>
-        <p>The topic inevitably turned to current affairs. I avoided this topic on purpose. But they firmly held the same position as us - they did not support the war, and it was clear to us that even Russian citizens understood what was happening. They explained the brainwashed Russian citizens are those who watch too much television.</p>
-        <p>We talked for several hours, evening came. Me and my girlfriend wanted to explore the city some more, so we said goodbye and exchanged contacts.</p>
+        <div class="filtered">
+          <p>A guy with a laptop was sitting next to us and, after ordering, he complimented us on our Russian language skills. We started talking. His name is Nail (pronounced Nayl in Lithuanian) Turns out he is from the <a target='_blank' href="https://en.wikipedia.org/wiki/Bashkirs">Bashkir</a> region of Russia. He came to Belarus for work. He has a wife in Russia who is also from the same region. His parents raise bees, livestock, and make alcoholic beverages. We shared our cultures and customs. I learned about Bashkir's <a target='_blank' href="https://en.wikipedia.org/wiki/Quray">national instrument</a>.</p>
+          <p>Two men were sitting next to us who were playing chess - Vadim and Vladimir. Apparently they found our conversation interesting and so they joined us. It turns out that both of them are from Russia. Vladimir was in Utena long time ago - when he was flipping good cars. I realized that they are like us - those who are guided not by words, but by experience.</p>
+          <p>The topic inevitably turned to current affairs. I avoided this topic on purpose. But they firmly held the same position as us - they did not support the war, and it was clear to us that even Russian citizens understood what was happening. They explained the brainwashed Russian citizens are those who watch too much television.</p>
+          <p>We talked for several hours, evening came. Me and my girlfriend wanted to explore the city some more, so we said goodbye and exchanged contacts.</p>
+        </div>
         <p>The sun was already setting. People gathered around nightlife areas. And we walked through the streets and tried to get lost between the buildings and the old town.</p>
         <figure>
           <img src="/static/images/baltarusija/belarus4.webp" alt="Beautiful"/>
@@ -83,7 +88,9 @@
         <h2 id="subway_2033">Subway 2033</h2>
         <p>It got dark - we decided that it was enough for today. Our apartment was 12 km from the center.</p>
         <p>Minsk has the oldest subway in Europe, so you can't get past it.</p>
-        <p>We arrived at the Niamiha Street metro station, the guard called me aside and checked my backpack with the airport baggage scanner. They started doing this because there was a <a target='_blank' href="https://en.wikipedia.org/wiki/2011_Minsk_Metro_bombing">bomb exploded</a> in Minsk metro in 2011.</p>
+        <div class="filtered">
+          <p>We arrived at the Niamiha Street metro station, the guard called me aside and checked my backpack with the airport baggage scanner. They started doing this because there was a <a target='_blank' href="https://en.wikipedia.org/wiki/2011_Minsk_Metro_bombing">bomb that exploded in Minsk metro in 2011</a>.</p>
+        </div>
         <p>The backpack did not cause any problems. We went to the counter to buy a token for our ride. I asked the woman how much the token cost, and she gave a crooked look, and, without saying a word, pointed to an old piece of paper with a pen. Rude, I thought.</p>
         <p>You can ride the metro all day, until you get out of the metro, with a token that cost 0.3 euro cents. The system on which side to wait was clear - there are also English signs everywhere. </p>
         <p>We were going very fast so we covered 12 km in less than 10 minutes including stops. Athens (the capital of Greece) could learn a lesson here.</p>
@@ -91,7 +98,9 @@
           <img src="/static/images/baltarusija/belarus5.webp" alt="Niamiha station"/>
           <figcaption>Niamiha station</figcaption>
         </figure>
-        <p>After arriving at <a target='_blank' href="https://goo.gl/maps/VSXThQsBTM8kyJMd8?coh=178571&entry=tt">Kuncaŭščyna station</a> we went to the store to buy food. There, we felt a huge price difference compared to Lithuania. Belarusian local products cost three/four times cheaper than what is available in Lithuania. However, the price of imported goods is high. So, we bought some local produce and went to rest.</p>
+        <div class="filtered">
+          <p>After arriving at <a target='_blank' href="https://goo.gl/maps/VSXThQsBTM8kyJMd8?coh=178571&entry=tt">Kuncaŭščyna station</a> we went to the store to buy food. There, we felt a huge price difference compared to Lithuania. Belarusian local products cost three/four times cheaper than what is available in Lithuania. However, the price of imported goods is high. So, we bought some local produce and went to rest.</p>
+        </div>
         <p>We stayed in a newly built three-room apartment, which looked quite impressive. The water from the sink in Minsk was not tasty, with a lot of chlorine.</p>
         <figure>
           <img src="/static/images/baltarusija/belarus6.webp" alt="Home sweet home"/>
@@ -103,8 +112,10 @@
         <p>Behind the museum, in the field, there is a Lisunov Li-2 military plane, and further on is a park. The park was so big that, once deep enough, you couldn't hear the cars buzzing through the streets.</p>
         <p>We decided to eat, so we walked to an Indian restaurant. Upon arriving, it turned out that the place was for vegetarians. We're not vegetarians, so we decided to go elsewhere. This is how we got to the <a target='_blank' href="https://goo.gl/maps/uvtpeZ1xcSXW2wL97?coh=178571&entry=tt">very large market in the building</a>.</p>
         <p>I bought bachlava and incense. Compared to Lithuanian prices, the same brand of incense cost four times less here.</p>
-        <p>We went to the other side, and there appears to be a large part of the market outside. Full of vegetables, fruits. And here we noticed some blacks.</p>
-        <p>Oh, and speaking of skin color, in Minsk, during the whole trip, we saw only a few Asians, and 4 black people (yes, I counted). We felt safe.</p>
+        <div class="filtered">
+          <p>We went to the other side, and there appears to be a large part of the market outside. Full of vegetables, fruits. And here we noticed some blacks.</p>
+          <p>Oh, and speaking of skin color, in Minsk, during the whole trip, we saw only a few Asians, and 4 black people (yes, I counted). We felt safe.</p>
+        </div>
         <p>We went to a kebab shop. Kebabs were bland.</p>
         <p>As I walked towards the centre, I saw the London Eye. Phew, this is <a target='_blank' href="https://goo.gl/maps/oVJno18wEpVKdkyn6?coh=178571&entry=tt">Minsks eye</a>. The ticket cost 1.5 euros. It was sunny, so at the top, the view opened up far and wide.</p>
         <p>We wandered back downtown and decided that was enough for today.</p>
@@ -114,11 +125,13 @@
           <img src="/static/images/baltarusija/belarus7.webp" alt="One of many"/>
           <figcaption>One of many</figcaption>
         </figure>
-        <p>We went to the bus station. It was not written anywhere on which platform our bus would be arriving, so I went to ask at the counter. The woman, although there was no one occupying her time, said she would not talk to me until I took out a waiting paper (for waiting in line) from the machine. Second case of rudeness from women. Is it that hard?</p>
+        <p>We went to the bus station. It was not written anywhere on which platform our bus would be arriving, so I went to ask at the counter. The woman, although there was no one occupying her time, said she would not talk to me until I took out a waiting paper (for waiting in line) from the machine. Lol! Second case of rudeness from women. Is it that hard?</p>
         <p>Another woman who was just finishing her shift saw this situation and offered to help us. She took us to the same window and told the other woman to tell us where the bus would be.</p>
         <p>Travelling back to Lithuania was very different than arriving.</p>
-        <p>The Belarusian border let us go quickly - they checked whether the passport was real and put a stamp on the passport. That's it.</p>
-        <p>The Lithuanians detained the bus for two hours. We got cleared, when a guy with a SMG rifle got in and checked if people had their passports. And they didn't even check things. If I had taken cigarettes 10 blocks away, no one would have blinked.</p>
+        <div class="filtered">
+          <p>The Belarusian border let us go quickly - they checked whether the passport was real and put a stamp on the passport. That's it.</p>
+          <p>The Lithuanians detained the bus for two hours. We got cleared, when a guy with a SMG rifle got in and checked if people had their passports. And they didn't even check things. If I had taken cigarettes 10 blocks away, no one would have blinked.</p>
+        </div>
         <h2 id="pros_and_cons">Pros and cons</h2>
         <p>Things I liked in Minsk:</p>
         <ul>
@@ -137,5 +150,6 @@
         <p>Out of the 17 countries I have visited, this is the first capital I would return to a second time. I highly recommend it. But it's better if you don't listen to me, go see everything with your own eyes.</p>
       </section>
     </main>
+    <script src="/scripts/triggerWarning.js" onload="check_filter()"></script>
   </body>
 </html>

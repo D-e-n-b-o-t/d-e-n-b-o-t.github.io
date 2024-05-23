@@ -10,7 +10,9 @@ I always wanted to write a book, so I wrote about what I know best. Approximatel
 * Pages: 105
 * Recommended age: 16+
 * Genre: Psychological/Adult
-* Available languages: [Lithuanian](https://meileszaidimas.lt) and [English](https://mangetlaid.com)
+* Available languages: Lithuanian and English
+
+<div class="filtered">
 
 ## Your guide to love and intimacy
 
@@ -30,9 +32,8 @@ The tactics part is about you and how you can increase your chances of winning t
 
 The practice part is all about how to play the game. How to approach, how to seduce, how to talk, what to text, where to take on a date, how to hold hands, how to kiss, how to interpret signs, how to take home, how to make love, what to do at home, when "no" means no, and criteria for choosing a partner for a happy, long-term relationship. After completing this part, you will know how to go from "hello" to "I love you".
 
-## Order a copy today!
+</div>
 
-The book exists in paperback and electronic (pdf, epub) formats. You can order by contacting me via email: [rev.denisas@gmail.com](mailto:rev.denisas@gmail.com?subject=I want to buy your book) or by visiting a website specifically dedicated to the book: 
+## Order a copy
 
-* [https://meileszaidimas.lt](https://meileszaidimas.lt) - lithuanian version.
-* [https://mangetlaid.com](https://mangetlaid.com) - english version. Yes, I know that the domain is weird :D
+The book exists in paperback and electronic (pdf, epub) formats. You can order by contacting me via email: [rev.denisas@gmail.com](mailto:rev.denisas@gmail.com?subject=I want to buy your book)

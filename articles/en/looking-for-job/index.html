@@ -18,14 +18,15 @@
   <body>
     <header>
       <nav>
-        <a href="/">🏠 Homepage</a>
-        <a href='/page/portfolio'>💻 Programming</a>
+        <a href="/">🏠 Home</a>
+        <a href='/page/portfolio'>💻 Code</a>
         <a href='/page/travels'>🌍 Travels</a>
         <a href='/page/fitness'>💪 Fitness</a>
         <a href='/page/book'>📕 Book</a>
         <a href='/en/articles'>📝 Posts</a>
-        <a href='/page/contact'>📩 Message me</a>
-        <a href="#" onclick="toggle_theme()" id="theme-toggler">Theme: dark</a>
+        <a href='/page/contact'>📩 Contact</a>
+        <a onclick="toggle_theme()" id="theme-toggler">Theme: dark</a>
+        <a onclick="toggle_filter()" id="filter-toggler">Mode: Trigger-safe</a>
       </nav>
     </header>
     <script src="/scripts/themeMode.js" onload="check_theme();"></script>
@@ -49,11 +50,13 @@
           <li>Lidl - Deputy Manager. Rotating morning and evening shifts. Morning shift starts at 5 am.</li>
           <li>UVS Group - cash register technician. Paramedics have the same schedule. Must be alert and ready to run when called upon.</li>
         </ul>
-        <h2 id="employment_service_exposed">Employment service exposed</h2>
-        <p>So, after a few months, I haven't found anything good. Almost no company could meet my simple criteria of an 8-hours-a-day, five-days-a-week schedule. Therefore, I decided to go to the employment service.</p>
-        <p>The woman working there, in the youth department of Utena, realized that she could talk to me more openly than the average young man visiting the employment service, so she explained that there are almost no jobs like that in Utena, and offered a very simple way out: <strong>look for remote work and lie on your CV</strong>.</p>
-        <p>Of course, not so directly - she used elegant paraphrasing, something with white lies, but the point was clear even to a deaf person, especially when I asked if she meant exactly that.</p>
-        <p>I was somewhat surprised to hear such a proposal, because I thought we were a long way from the times of the USSR.</p>
+        <div class="filtered">
+          <h2 id="employment_service_exposed">Employment service exposed</h2>
+          <p>So, after a few months, I haven't found anything good. Almost no company could meet my simple criteria of an 8-hours-a-day, five-days-a-week schedule. Therefore, I decided to go to the employment service.</p>
+          <p>The woman working there, in the youth department of Utena, realized that she could talk to me more openly than the average young man visiting the employment service, so she explained that there are almost no jobs like that in Utena, and offered a very simple way out: <strong>look for remote work and lie on your CV</strong>.</p>
+          <p>Of course, not so directly - she used elegant paraphrasing, something something... white lies don't hurt..., but the point was clear even to a deaf person, especially when I asked if she meant exactly that.</p>
+          <p>I was somewhat surprised to hear such a proposal, because I thought we were a long way from the times of the USSR.</p>
+        </div>
         <h2 id="what_s_next">What's next</h2>
         <p>I left my CV as it really is, I only "improved" my LinkedIn profile to get more offers.</p>
         <p>I don't want to talk about it, but I will probably join the job market next week because I found a good offer for my specialty in Utena.</p>
@@ -61,5 +64,6 @@
         <p>EDIT 2023-05-26: The offer pulled through. It has been almost 3 months since I started working as an IT specialist.</p>
       </section>
     </main>
+    <script src="/scripts/triggerWarning.js" onload="check_filter()"></script>
   </body>
 </html>

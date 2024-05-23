@@ -13,15 +13,15 @@
   <body>
     <header>
           <nav>
-            <a href="/">🏠 Homepage</a>
-            <a href='/page/portfolio'>💻 Programming</a>
+            <a href="/">🏠 Home</a>
+            <a href='/page/portfolio'>💻 Code</a>
             <a href='/page/travels'>🌍 Travels</a>
             <a href='/page/fitness'>💪 Fitness</a>
             <a href='/page/book'>📕 Book</a>
             <a href='/en/articles'>📝 Posts</a>
-            <a href='/page/contact'>📩 Message me</a>
-            <a href="#" onclick="toggle_theme()" id="theme-toggler">Theme: dark</a>
-            <a href="/lt">LT 🇱🇹</a>
+            <a href='/page/contact'>📩 Contact</a>
+            <a onclick="toggle_theme()" id="theme-toggler">Theme: dark</a>
+            <a onclick="toggle_filter()" id="filter-toggler">Mode: Trigger-safe</a>
           </nav>
     </header>
     <script src="/scripts/themeMode.js" onload="check_theme();"></script>
@@ -35,7 +35,7 @@
           Whatever comes to mind - if it is interesting, I will learn it. And because I do what I do - people define me by different titles. 
           </p>
           <p>I don't like big cities, crowds and dogs. Very unpredictable.</p>
-          <p>But what I do like is intimate connections between two people. So this is why I wrote a <a href="https:\\mangetlaid.com" target="_blank">book</a> - to bring people closer together in a time where we are apart.</p>
+          <p>But what I do like is intimate connections between two people. So this is why I wrote a <a href="page/book">book</a> - to bring people closer together in a time where we are apart.</p>
           <p>Here are some Wikipedia-type facts about me:</p>
           <ul>
             <li>I am from Utena, Lithuania. 🇱🇹</li>
@@ -46,20 +46,44 @@
             <li>Favorite music genre - Jungle/Breakcore.</li>
           </ul>
           <h2>Cool, what do I do next?</h2>
-          <p>Explore the navigation panel, you'll find some interesting stuff there.</p>
+          <p>Explore the navigation panel, you'll find some interesting stuff there. You can change your the theme if you prefer a light version.</p>
           <p>Also, check out these links:</p>
           <ul>
             <li><a href="https://github.com/northoc">Github</a></li>
             <li><a href="https://twitter.com/denislisunov">X/Twitter</a></li>
             <li><a href="https://www.facebook.com/denis.lisunovv">Facebook</a></li>
             <li><a href="https://www.linkedin.com/in/denis-lisunov/">LinkedIn</a></li>
-            <li><a href="https://mangetlaid.com">Book page</a></li>
             <li><a href="https://www.youtube.com/channel/UCLRc-Q0WkFgIywm2NUPoGow">YouTube</a></li>
             <li><a href="https://soundcloud.com/denis-lisunov">Soundcloud</a></li>
           </ul>
+          <h2>Mode:Trigger-safe</h2>
+          <p>This website is unique in the fact that it has a trigger-safe mode designed to protect viewers from sensitive content. Heckin amazingerino, right?</p>
+          <div class="filtered">
+            <h2>Mode: Unfiltered</h2>
+            <p>This mode drops golden nuggets with all the shit in between. Real and raw. Read at your own risk.</p>
+          </div>
           <h2>Why does this website look like this?</h2>
-          <p>Well, because on this website I don't intend to sell you anything. I only want to share my journey. Do you like it when things are simple?</p>
+          <p>Ideas are easier to take in, when there are no distractions.</p>
+          <h2>TLDR for Zoomies</h2>
+          <p><strong>What do you WANT?</strong></p>
+          <p><strong>Looksmax</strong>: pick a workout routine, stick to it for 2-4 years. At first it's a chore. Later becomes a habit.</p>
+          <p><strong>Moneymax</strong>: Pick a problem you want to solve and offer a solution to people. Stick with it for 2-4 years. Profit.</p>
+          <div class="filtered">
+          <p><strong>Women</strong>: Looksmax for girls with no kids. Moneymax for single mommies.</p>
+          <p><strong>Happiness</strong>: Move away from the big city. Eat homecooked food. Spend more time outside. Clean your place every other week. Spend more time with mommy and daddy before they die.</p>
+
+          <p>If you <strong>TRULY WANT</strong> it, you will seek out the truth and do what is necessary.</p>
+          <p>Ask yourself this:</p>
+          <ul>
+            <li><strong>DO I WANT TO LOOK IN THE MIRROR AND BE PROUD?</strong></li>
+            <li><strong>DO I WANT TO RETIRE EARLY AND NEVER WORK A JOB AGAIN?</strong></li>
+            <li><strong>DO I WANT TO STOP FEELING LONELY AND GET LAID?</strong></li>
+            <li><strong>DO I WANT TO STOP BEING DEPRESSED?</strong></li>
+          </ul>
+          <p>Here's the trigger part: you only get to truly want one thing at a time.</p>
+        </div>
       </section>
     </main>
   </body>
+  <script src="/scripts/triggerWarning.js" onload="check_filter()"></script>
 </html>

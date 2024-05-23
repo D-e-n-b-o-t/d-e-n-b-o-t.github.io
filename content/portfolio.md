@@ -2,6 +2,10 @@
 
 I have been coding for 3+ years and currently work as an IT specialist at [UAB "Bikuvos" Prekyba](https://bikuva.lt/) and study IT engineering in [Utena University of Applied Sciences](https://www.utenos-kolegija.lt/en).
 
+## I want to hire you! How can I get in touch?
+
+Feel free to reach out to me by email: [rev.denisas@gmail.com](mailto:rev.denisas@gmail.com)
+
 ## Front-End Web Apps (Click to play)
 
 [Book tracker](https://northoc.github.io/book-library-js/) (JavaScript) - It is a front-end library web app.
@@ -66,11 +70,3 @@ I have been coding for 3+ years and currently work as an IT specialist at [UAB "
 * 2022 - [Python (Basic) Certification](https://www.hackerrank.com/certificates/c91d64ec71ee) (HackerRank)
 * 2021 - [Javascript Algorithms and Data Structures](https://freecodecamp.org/certification/northoc/javascript-algorithms-and-data-structures) (freecodecamp)
 * 2021 - [Responsive Web Design](https://freecodecamp.org/certification/northoc/responsive-web-design) (freecodecamp)
-
-## Curriculum vitae (outdated)
-
-I have a one-page CV that I made in HTML and CSS which also includes my working experience. You can download the pdf version [from here](/static/CV_EN.pdf).
-
-## I want to hire you! How can I get in touch?
-
-Feel free to reach out to me by email: [rev.denisas@gmail.com](mailto:rev.denisas@gmail.com)

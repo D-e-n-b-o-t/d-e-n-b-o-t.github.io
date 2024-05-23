@@ -19,15 +19,19 @@ Examples:
 * Lidl - Deputy Manager. Rotating morning and evening shifts. Morning shift starts at 5 am.
 * UVS Group - cash register technician. Paramedics have the same schedule. Must be alert and ready to run when called upon.
 
+<div class="filtered">
+
 ## Employment service exposed
 
 So, after a few months, I haven't found anything good. Almost no company could meet my simple criteria of an 8-hours-a-day, five-days-a-week schedule. Therefore, I decided to go to the employment service.
 
 The woman working there, in the youth department of Utena, realized that she could talk to me more openly than the average young man visiting the employment service, so she explained that there are almost no jobs like that in Utena, and offered a very simple way out: **look for remote work and lie on your CV**.
 
-Of course, not so directly - she used elegant paraphrasing, something with white lies, but the point was clear even to a deaf person, especially when I asked if she meant exactly that.
+Of course, not so directly - she used elegant paraphrasing, something something... white lies don't hurt..., but the point was clear even to a deaf person, especially when I asked if she meant exactly that.
 
 I was somewhat surprised to hear such a proposal, because I thought we were a long way from the times of the USSR.
+
+</div>
 
 ## What's next
 

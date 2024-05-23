@@ -24,7 +24,7 @@ Why 5 million? Because at a very conservative annual return rate of 4%, the inde
 
 In a vast sea of books, I don't think my chances of becoming the next [J.K. Rowling](https://mangetlaid.com) are great. 
 
-But, because I put my time to good use, I am going to build a business the with code.
+But, because I put my time to good use, I am going to build a business with code.
 
 My plan:
 
@@ -35,7 +35,11 @@ My plan:
 5. Improve solution.
 6. Go back to step 3.
 
+<div class="filtered">
+
 We are making proper solutions to existing problems with long-term goals in mind. There is no audience to sell to, no brand, no investors or VCs, and none of that "indie hacker SaaS launch in 3 weeks" shit. 
+
+</div>
 
 ## What if you fail?
 

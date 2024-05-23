@@ -43,6 +43,7 @@ header{
     position: -webkit-sticky;
     top: 0;
     background-color: var(--color-secondary);
+    z-index: 99;
 }
 header h1{
     margin: 0px;
@@ -87,6 +88,27 @@ section{
     max-width: 800px;
     margin-bottom: 100px;
 }
+.filtered{
+    position: relative;
+    border: 1px solid red;
+    padding-left: 10px;
+}
+.warning{
+    position: absolute;
+    top: -12px;
+    margin: 0;
+    left: 30%;
+    background: var(--color-secondary);
+    padding: 0px 10px;
+    color: red;
+}
+#filter-toggler, #theme-toggler{
+    cursor: pointer;
+}
+.post-time{
+    display: block;
+}
+
 @media (max-width: 800px) {
     body{
         font-size: 14px;

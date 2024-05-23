@@ -38,7 +38,7 @@ Other than that, Spanish doesn't seem that difficult.
 
 Tried watching [La Casa de Papel](https://en.wikipedia.org/wiki/Money_Heist) (by the way, it literally translates to Money House, not Money Heist). I can understand the context in places and tell a lot about what is being talked about, but small details still slip by my ears. Sometimes the characters seem to talk too fast.
 
-I can read the news hardly, because, in many articles, sophisticated and unusual words are used, so I have to use a translator.
+I can hardly read the news, because, in many articles, sophisticated and unusual words are used, so I have to use a translator.
 
 But songs are different because they are slower. I finally understand what [Shakira](https://youtu.be/DUT5rEU6pqM?t=125) sings (she definitely can make a man wanna speak Spanish) and all the other trending Espanglish musicians.
 

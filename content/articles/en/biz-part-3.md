@@ -1,4 +1,4 @@
-# Road to 5 million: the details (part 3)
+# Road to 5 million: the stack (part 3)
 
 ## Context
 
@@ -22,7 +22,7 @@ Another reason is that I only need to worry about my rental friend platform bein
 
 ## Front-end + Back-end + Database
 
-Every realistic business on the internet, that is not an e-shop or a blog, has to choose these things. It is the minimal standard for a site to be functional, and is called the stack.
+Every realistic business on the internet has to choose these things. It is the minimal standard for a site to be functional, and is called the stack.
 
 So what is a stack? It is a combination of technologies, set up in a way that lets you code things faster.
 

@@ -18,14 +18,15 @@
   <body>
     <header>
       <nav>
-        <a href="/">🏠 Homepage</a>
-        <a href='/page/portfolio'>💻 Programming</a>
+        <a href="/">🏠 Home</a>
+        <a href='/page/portfolio'>💻 Code</a>
         <a href='/page/travels'>🌍 Travels</a>
         <a href='/page/fitness'>💪 Fitness</a>
         <a href='/page/book'>📕 Book</a>
         <a href='/en/articles'>📝 Posts</a>
-        <a href='/page/contact'>📩 Message me</a>
-        <a href="#" onclick="toggle_theme()" id="theme-toggler">Theme: dark</a>
+        <a href='/page/contact'>📩 Contact</a>
+        <a onclick="toggle_theme()" id="theme-toggler">Theme: dark</a>
+        <a onclick="toggle_filter()" id="filter-toggler">Mode: Trigger-safe</a>
       </nav>
     </header>
     <script src="/scripts/themeMode.js" onload="check_theme();"></script>
@@ -47,7 +48,7 @@
         <p>Why 5 million? Because at a very conservative annual return rate of 4%, the index fund would yield me 200k/yr (before taxes). That is more than enough, not only to survive, but to continue building future wealth for the generations to come, after I grow old and die.</p>
         <h2 id="how_am_i_gonna_do_it">How am I gonna do it</h2>
         <p>In a vast sea of books, I don't think my chances of becoming the next <a target='_blank' href="https://mangetlaid.com">J.K. Rowling</a> are great. </p>
-        <p>But, because I put my time to good use, I am going to build a business the with code.</p>
+        <p>But, because I put my time to good use, I am going to build a business with code.</p>
         <p>My plan:</p>
         <ol>
           <li>Find a problem.</li>
@@ -57,7 +58,9 @@
           <li>Improve solution.</li>
           <li>Go back to step 3.</li>
         </ol>
-        <p>We are making proper solutions to existing problems with long-term goals in mind. There is no audience to sell to, no brand, no investors or VCs, and none of that "indie hacker SaaS launch in 3 weeks" shit. </p>
+        <div class="filtered">
+          <p>We are making proper solutions to existing problems with long-term goals in mind. There is no audience to sell to, no brand, no investors or VCs, and none of that "indie hacker SaaS launch in 3 weeks" shit. </p>
+        </div>
         <h2 id="what_if_you_fail">What if you fail?</h2>
         <p>Here's the good thing: <strong><em>I have unlimited tries. And I only need to succeed once.</em></strong> Read that again. If I make 10 businesses, fail 9 times and succeed once - that's it. I win. Is that true failure? No. Those previous times would be considered as learning experience.</p>
         <p>True failure is giving up.</p>
@@ -65,5 +68,6 @@
         <p>The first step: finding a problem. Stay tuned.</p>
       </section>
     </main>
+    <script src="/scripts/triggerWarning.js" onload="check_filter()"></script>
   </body>
 </html>

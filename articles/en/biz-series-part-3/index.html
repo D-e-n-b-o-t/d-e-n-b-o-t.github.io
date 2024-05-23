@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="theme-dark">
   <head>
-    <title>Road to 5 million: the details (part 3) - Denis Lisunov</title>
+    <title>Road to 5 million: the stack (part 3) - Denis Lisunov</title>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
     <meta name="image" property="og:image" content="/static/images/biz-series/the_stack.png">
@@ -18,20 +18,21 @@
   <body>
     <header>
       <nav>
-        <a href="/">🏠 Homepage</a>
-        <a href='/page/portfolio'>💻 Programming</a>
+        <a href="/">🏠 Home</a>
+        <a href='/page/portfolio'>💻 Code</a>
         <a href='/page/travels'>🌍 Travels</a>
         <a href='/page/fitness'>💪 Fitness</a>
         <a href='/page/book'>📕 Book</a>
         <a href='/en/articles'>📝 Posts</a>
-        <a href='/page/contact'>📩 Message me</a>
-        <a href="#" onclick="toggle_theme()" id="theme-toggler">Theme: dark</a>
+        <a href='/page/contact'>📩 Contact</a>
+        <a onclick="toggle_theme()" id="theme-toggler">Theme: dark</a>
+        <a onclick="toggle_filter()" id="filter-toggler">Mode: Trigger-safe</a>
       </nav>
     </header>
     <script src="/scripts/themeMode.js" onload="check_theme();"></script>
     <main>
       <section>
-        <h1 id="title">Road to 5 million: the details (part 3)</h1>
+        <h1 id="title">Road to 5 million: the stack (part 3)</h1>
         <h2 id="context">Context</h2>
         <p>In the previous one, I picked a problem to solve and what business would fit my criteria. This post is about programming details</p>
         <h2 id="picking_the_medium">Picking the medium</h2>
@@ -43,7 +44,7 @@
         <p>Host it, get a domain and you're good to go. This means that I will retain maximum control over my project.</p>
         <p>Another reason is that I only need to worry about my rental friend platform being responsive, for it to work both on computers and phones, instead of worrying about handling operating system versions. Again, less headaches.</p>
         <h2 id="front_end_back_end_database">Front-end + Back-end + Database</h2>
-        <p>Every realistic business on the internet, that is not an e-shop or a blog, has to choose these things. It is the minimal standard for a site to be functional, and is called the stack.</p>
+        <p>Every realistic business on the internet has to choose these things. It is the minimal standard for a site to be functional, and is called the stack.</p>
         <p>So what is a stack? It is a combination of technologies, set up in a way that lets you code things faster.</p>
         <p>So how do you choose a stack? Well, from experience, the best choice is to use what you know.</p>
         <p>In my case, I know Django. It's a full-stack framework (containing front-end, back-end and database technologies) which has a lot of features already implemented for you, like security measures, user models, sessions, templating, etc. On top of that, to make the website more interactive and modern, I will use the Django Rest Framework and cook up an API for editing a profile. </p>
@@ -64,5 +65,6 @@
         <p>Stay tuned.</p>
       </section>
     </main>
+    <script src="/scripts/triggerWarning.js" onload="check_filter()"></script>
   </body>
 </html>

@@ -18,14 +18,15 @@
   <body>
     <header>
       <nav>
-        <a href="/">🏠 Homepage</a>
-        <a href='/page/portfolio'>💻 Programming</a>
+        <a href="/">🏠 Home</a>
+        <a href='/page/portfolio'>💻 Code</a>
         <a href='/page/travels'>🌍 Travels</a>
         <a href='/page/fitness'>💪 Fitness</a>
         <a href='/page/book'>📕 Book</a>
         <a href='/en/articles'>📝 Posts</a>
-        <a href='/page/contact'>📩 Message me</a>
-        <a href="#" onclick="toggle_theme()" id="theme-toggler">Theme: dark</a>
+        <a href='/page/contact'>📩 Contact</a>
+        <a onclick="toggle_theme()" id="theme-toggler">Theme: dark</a>
+        <a onclick="toggle_filter()" id="filter-toggler">Mode: Trigger-safe</a>
       </nav>
     </header>
     <script src="/scripts/themeMode.js" onload="check_theme();"></script>
@@ -76,5 +77,6 @@
 <script src="/scripts/calcAge.js"></script>
 </section>
 </main>
+<script src="/scripts/triggerWarning.js" onload="check_filter()"></script>
 </body>
 </html>
