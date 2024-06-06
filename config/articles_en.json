@@ -43,5 +43,9 @@
   "articles/en/biz-series-part-4": {
     "date": "2024-05-23",
     "content": "content/articles/en/biz-part-4.md"
+  },
+  "articles/en/biz-series-part-5": {
+    "date": "2024-06-06",
+    "content": "content/articles/en/biz-part-5.md"
   }
 }

@@ -19,7 +19,7 @@
  }
 body{
     margin: 0;
-    font-family: "poppins",monospace;
+    font-family: 'poppins';
     background-color: var(--color-secondary);
     color: var(--font-color);
     font-size: 16px;
